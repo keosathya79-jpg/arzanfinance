@@ -1,1 +1,18 @@
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="aimBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#061426" />
+      <stop offset="60%" stop-color="#081b33" />
+      <stop offset="100%" stop-color="#103159" />
+    </linearGradient>
+    <linearGradient id="aimGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a9833d" />
+      <stop offset="50%" stop-color="#d4b06a" />
+      <stop offset="100%" stop-color="#a9833d" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#aimBg)" />
+  <rect x="28" y="28" width="456" height="456" rx="76" fill="none" stroke="#c5a059" stroke-opacity="0.35" stroke-width="4" />
+  <text x="256" y="294" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="168" letter-spacing="8" fill="#ffffff">AIM</text>
+  <rect x="136" y="344" width="240" height="8" rx="4" fill="url(#aimGold)" />
+</svg>
